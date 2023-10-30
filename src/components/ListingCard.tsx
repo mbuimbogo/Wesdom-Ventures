@@ -2,9 +2,14 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-type Props = {};
+interface ListingCardProps {
+  listingId: number;
+  location: string;
+  description: string;
+  image: string;
+}
 
-const ListingCard = ({ listingId, location, description, image }) => {
+const ListingCard: React.FC<ListingCardProps> = ({ listingId, location, description, image }) => {
   return (
     <div className="w-full">
       <Link href={`/listings/${listingId}`}>
