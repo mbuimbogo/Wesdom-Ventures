@@ -56,8 +56,7 @@ export default function About() {
           src="/assets/contactland.jpg"
           width={500}
           height={300}
-          className="w-full h-[450px] max-w-full object-cover rounded-sm"
-        />
+          className="w-full h-[450px] max-w-full object-cover rounded-sm" alt="land sale"       />
       </div>
 
       <div className="max-w-[80%] mx-auto md:flex justify-center items-center  mt-4">
