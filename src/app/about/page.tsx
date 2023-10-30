@@ -70,8 +70,7 @@ export default function About() {
           src="/assets/contactland.jpg"
           width={500}
           height={200}
-          className="h-[400px] w-[450px] object-cover rounded-md mr-10 ml-24 md:ml-0 mt-4 md:mt-0"
-        />
+          className="h-[400px] w-[450px] object-cover rounded-md mr-10 ml-24 md:ml-0 mt-4 md:mt-0" alt="land sale"       />
       </div>
 
       <div className="mt-8 bg-white p-2">
@@ -80,8 +79,7 @@ export default function About() {
             src="/assets/contactland.jpg"
             width={500}
             height={350}
-            className="h-[400px] w-[450px] object-cover rounded-md  md:mt-4 mb-4 "
-          />
+            className="h-[400px] w-[450px] object-cover rounded-md  md:mt-4 mb-4 " alt="land sale"         />
           <div className="flex flex-col items-center">
             <h1 className="font-bold text-4xl  mt:mt-8">OUR VISION</h1>
             <div className="h-1 w-24 md:ml-30 mb-[10px] bg-red-600"></div>
@@ -114,8 +112,7 @@ export default function About() {
           src="/assets/contactland.jpg"
           width={500}
           height={300}
-          className="w-full h-[450px] max-w-full object-cover rounded-sm"
-        />
+          className="w-full h-[450px] max-w-full object-cover rounded-sm" alt="land sale"        />
       </div>
 
       <div className="max-w-6xl mx-auto">
