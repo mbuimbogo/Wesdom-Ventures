@@ -1,7 +1,12 @@
 import React from 'react'
 import Image from 'next/image';
 
-const CarouselCard = ({title, image, description}) => {
+interface CarouselCardProps {
+  title: string;
+  image: string;
+  description: string;
+}
+const CarouselCard: React.FC<CarouselCardProps> = ({title, image, description}) => {
   return (
     <div className='w-full'>
         <div className="w-[90%] md:w-[30rem] mx-auto flex flex-col justify-center items-center bg-white text-blue  gap-2 rounded-md px-2 py-3">
