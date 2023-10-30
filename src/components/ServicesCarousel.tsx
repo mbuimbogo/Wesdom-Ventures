@@ -36,7 +36,7 @@ export const servicesData = [
       },
   ];
 const CarouselSection = () => {
-  const carouselRef = useRef(null);
+  const carouselRef = useRef<HTMLDivElement>(null);
   const [scrollPosition, setScrollPosition] = useState(0);
   const cardWidth = 300; 
 
